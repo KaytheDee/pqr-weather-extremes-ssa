@@ -1,12 +1,11 @@
 
 *** Co-occurrence Analysis 
 
-Here, I calculate the co-occurrence of the various extreme weather combinations (the top 11 to be exact) with outages (1+hour, 8+hour) and under voltages (1+hour and 4+hour). 
+Here, we calculate the co-occurrence of the various extreme weather combinations (the top 11 to be exact) with outages (1+hour, 8+hour) and under voltages (1+hour and 4+hour). 
 
-I run this for 3 different extreme weather severity levels: 
+We run this for 3 different extreme weather severity levels: 
 - 90th 
 - 95th and 
 - 99th percentiles 
 
-I also run the level of statistical significance for each (using the Chi squared independence test) 
-
+We also run the level of statistical significance for each (using the Chi squared independence test) 

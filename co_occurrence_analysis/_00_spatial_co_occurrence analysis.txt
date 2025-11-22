@@ -2,8 +2,7 @@
 *** Spatial Co-occurrence Analysis (per EA) 
 
 In the spatial co-occurrence analysis, I do the same co-occurrence analysis (outlined below) but I run this analysis PER ENUMERATION AREA, instead of globally. 
-I also just focus on the 95th percentile of extreme weather. 
-
+I also focus on the 95th percentile of extreme weather. 
 
 ---------------------------------- 
 

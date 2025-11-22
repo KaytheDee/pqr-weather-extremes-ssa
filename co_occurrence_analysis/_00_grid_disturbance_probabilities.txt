@@ -1,13 +1,11 @@
 
 *** Grid Disturbance Probabilities 
 
-This section basically visualizes (as bar plots) the co-occurrence rates for each extreme weather combination and outage (1+hour, 8+hour) or under voltage (1+hour, 4+hour). 
+This section visualizes the co-occurrence rates for each extreme weather combination and outage (1+hour, 8+hour) or under voltage (1+hour, 4+hour). 
 
 ------ 
 
-The Accra Aca (right?) weather station had lots of missing wind data and it was positioned in the southern central portion of Greater Accra. 
-
-Because this area had high CESI EAs, we did not want to lose this data, by filtering for only the EAs that had ALL datasets (temp, precip, wind and lightning). 
+One weather station (in the southern central portion of Greater Accra) had lots of missing wind data. This area had high CESI EAs and insights would have been lost if removed. 
 
 We therefore settled on two datasets: 
 TPL (EAs with temp, precip and lightning data) 

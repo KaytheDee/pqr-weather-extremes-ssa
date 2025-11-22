@@ -1,12 +1,12 @@
 
-*** Creation of CESI (Climate Exposure and Sensitivity Index) 
+*** Creation of the CESI (Climate Exposure and Sensitivity Index) 
 
 Aggregates Air Quality, Level of Informality (Slum Index) and Flood Risk into a CESI score per EA 
 
-Air Quality & Level of Informality from single sources 
+Air Quality & Level of Informality were from single sources 
 
 Flood Risk is made up of 
-- total rainfall exposure (in XYZ file)
+- total rainfall exposure (in 'total_precipitation_metrics.py' file)
 - mean elevation 
 - mean slope 
 - mean NDVI 

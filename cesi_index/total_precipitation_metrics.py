@@ -4,6 +4,8 @@ import geopandas as gpd
 import json
 
 
+### Calculates total precipitation per EA (in mm) over the study period 
+
 ### read in geodataframes with the precipitation interpolations for all 5019 EAs 
 precip_all_22 = gpd.read_file('/work/pi_jtaneja_umass_edu/kdonkor_umass_edu/Geo_Interpolation/Geo_Interpolation_Outputs/precip_idw_all_EAs_2022_5019_EAs.geojson')
 

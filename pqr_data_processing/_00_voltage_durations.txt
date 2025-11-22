@@ -3,6 +3,6 @@
 
 This version also ignores momentary blips in recovery. 
 
-Uses ALL sites 
+Uses ALL PQR sites 
 
 Output of this feeds into co-occurrence analysis and bivariate analysis 

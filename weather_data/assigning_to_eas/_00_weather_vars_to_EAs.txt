@@ -25,11 +25,3 @@ For each EA that intersected with a number of 'wind buffers' for that hour, the 
 
 --- Lightning 
 For each EA that intersected with the concentric 1km lightning buffer 'rings', the average of the non-zero values were calculated and assigned to the EAs. 
-
-
---- Proof of IDW as the best method 
-This was chosen through a cross-validation method where some of the weather stations were removed and the accuracy of the interpolated value checked (against the true value). 
-
-IDW emerged the one with the lowest Mean Square Error  
-
-
