@@ -1,0 +1,26 @@
+
+*** All 366 sites considered in this analysis 
+These are the sites that intersect with the Greater Accra Enumerations study Area 
+
+
+
+** Ignores momentary blips in restoration 
+For an outage to be fully restored, there should be power for at least 5 minutes 
+For an undervoltage or overvoltage to be considered as restored, voltage levels should be within the standard range for at least 5 minutes  
+
+
+*** Reliability (Outages) 
+
+Processes the raw sensor data into various durations --> [5, 60, 120, 240, 360, 480, 600, 720, 840, 960, 1200, 1440] minutes 
+To find consecutive outage events of those durations 
+
+-- I believe what I use here is the 5-minute data since I am only focused on outages AT LEAST 5 minutes long per the IEEE 1366 standard 
+
+
+*** Quality (Undervoltage & Overvoltage) 
+
+
+Processes the raw sensor data into various durations --> [5, 20, 40, 60, 90, 120, 240, 480] minutes 
+To find consecutive undervoltage/overvoltage events of those durations 
+
+-- I think this just find the consecutive NUMBER of these -- undervoltage or overvoltage events -- (per month) 

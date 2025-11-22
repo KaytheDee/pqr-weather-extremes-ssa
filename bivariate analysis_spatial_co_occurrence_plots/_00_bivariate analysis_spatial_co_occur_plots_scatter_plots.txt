@@ -1,0 +1,25 @@
+
+*** Bivariate Analysis | Spatial Co-occurrence Plots | Scatter Plots 
+
+In this notebook, 
+
+We run an analysis comparing total Grid Performance metrics (outage/undervoltage) over the 2 years against the 3 CESI levels. 
+We visualized these using bivariate geospatial plots. 
+
+---- 
+
+We also visualized some of the data from the output of the spatial co-occurrence analysis. 
+We used the TPL dataset. 
+
+
+Specifically, for outages (1+hour), we focused on those that co-occur with PL (heavy precipitation and extreme lightning). 
+This was chosen because aside the PWL combination - which had the highest co-occurrence with outages - PL had the next highest. 
+PWL was not chosen because many high-vulnerability EAs (which we wanted to investigate) did not have wind data. 
+
+For under voltages, (4+hour), we focused on those that co-occur with extreme temperature (T). Because that was the weather variable with the highest co-occurrence with under voltages. 
+
+---- 
+
+We also visualized the relationship between PL-outages and CESI. As well as T-under voltages and CESI. 
+
+We did this using a scatter plot. 

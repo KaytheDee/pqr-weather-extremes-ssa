@@ -1,0 +1,8 @@
+
+*** Processing undervoltage data (of 1+ hour and 4+ hour undervoltages). 
+
+This version also ignores momentary blips in recovery. 
+
+Uses ALL sites 
+
+Output of this feeds into co-occurrence analysis and bivariate analysis 

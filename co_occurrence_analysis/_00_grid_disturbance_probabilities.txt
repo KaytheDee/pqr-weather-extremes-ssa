@@ -1,0 +1,23 @@
+
+*** Grid Disturbance Probabilities 
+
+This section basically visualizes (as bar plots) the co-occurrence rates for each extreme weather combination and outage (1+hour, 8+hour) or under voltage (1+hour, 4+hour). 
+
+------ 
+
+The Accra Aca (right?) weather station had lots of missing wind data and it was positioned in the southern central portion of Greater Accra. 
+
+Because this area had high CESI EAs, we did not want to lose this data, by filtering for only the EAs that had ALL datasets (temp, precip, wind and lightning). 
+
+We therefore settled on two datasets: 
+TPL (EAs with temp, precip and lightning data) 
+& 
+TPLW (EAs with temp, precip, wind and lightning data) 
+
+------ 
+
+I had earlier calculated the weather combinations (among each) with the highest occurrences (based on % occurrence in that dataset). 
+And selected the highest combinations from the two datasets. 
+
+For instance, if I had the percentage occurrence for T days to be 35% in the TPL dataset, but 32% in the TPLW dataset, I chose the T in the TPL dataset. 
+The next combination chosen would be the one with the next highest percentage (among the 2 datasets). 
