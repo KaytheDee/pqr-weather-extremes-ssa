@@ -1,0 +1,38 @@
+
+*** Data Cleaning - Weather Data 
+
+In these notebooks, 
+
+We imported the various weather variables PER WEATHER STATION 
+Temperature 
+Precipitation 
+Wind 
+Lightning 
+
+And cleaned them. 
+We re-index to a 5 minute frequency, 
+run a linear interpolation where necessary, 
+Resampled to hourly frequencies:: 
+- Max for Wind Gusts 
+- Sum for precipitation 
+- Average for temperature 
+- Sum for lightning 
+
+Days with a high % of NaN (missing) values were removed as well. 
+We removed the months with more than 10% NaN values --> ~3 days. 
+
+Important to note also, is that the linear interpolation that was done, only occurred within the bounds of a day: so the temperatures in between days did not 'cross over'. 
+
+---- 
+
+For lightning, we grouped the events in steps of 1km. So 1km, 2km, 3km to 10km. 
+10km was the maximum because the lightning sensor had max accuracy <= 10km. 
+We then grouped the total lightning events per these 1km 'steps' (sum per hour) and did this per weather station. 
+
+---- 
+
+In the Wind cleaning notebook, we also have some statistics showing that 6km was a reasonable weather station buffer since wind did not change that much over that distance 
+
+
+---- 
+In the notebook where I merge precip and temp, at the bottom I compare the weather variables of nearby sites --> to show that the weather variables don't change as much 
